@@ -1,4 +1,4 @@
-# Charly Memory Cache Server
+# Memory Cache Server
 
 A Model Context Protocol (MCP) server that reduces token consumption by efficiently caching data between language model interactions. Works with any MCP client and any language model that uses tokens.
 
@@ -6,8 +6,8 @@ A Model Context Protocol (MCP) server that reduces token consumption by efficien
 
 1. Clone the repository:
 ```bash
-git clone git@github.com:ibproduct/charlymcpcacheserver.git
-cd charly-memory-cache-server
+git clone git@github.com:ibproduct/ib-mcp-cache-server
+cd ib-mcp-cache-server
 ```
 
 2. Install dependencies:
@@ -26,7 +26,7 @@ npm run build
   "mcpServers": {
     "memory-cache": {
       "command": "node",
-      "args": ["/path/to/charly-memory-cache-server/build/index.js"]
+      "args": ["/path/to/ib-mcp-cache-server/build/index.js"]
     }
   }
 }
